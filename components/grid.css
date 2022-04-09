@@ -1320,8 +1320,9 @@
 .ui.grid > .justified.column.column,
 .ui.grid > .row > .justified.column.column {
   text-align: justify;
-  -ms-hyphens: auto;
-      hyphens: auto;
+  -webkit-hyphens: auto;
+      -ms-hyphens: auto;
+          hyphens: auto;
 }
 
 /*----------------------

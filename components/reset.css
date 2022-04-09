@@ -126,7 +126,8 @@ abbr[title] {
   text-decoration: underline;
   
 /* 2 */
-  text-decoration: underline dotted;
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
   
 /* 2 */
 }
