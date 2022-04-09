@@ -150,6 +150,23 @@
   color: rgba(255, 255, 255, 0.8);
   background: rgba(255, 255, 255, 0.02);
 }
+.ui.calendar.popup > .ui.ui.grid {
+  margin: -1rem;
+}
+.ui.calendar.popup > .ui.ui.grid > .column:not(:first-child) {
+  padding-left: 0;
+}
+.ui.calendar.popup > .ui.ui.grid > .column:not(:first-child) > .ui.table {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.ui.calendar.popup > .ui.ui.grid > .column:not(:last-child) {
+  padding-right: 0;
+}
+.ui.calendar.popup > .ui.ui.grid > .column:not(:last-child) > .ui.table {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
 
 
 /*******************************
